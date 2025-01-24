@@ -23,7 +23,7 @@ chat_history = FirestoreChatMessageHistory(
     client=client
 )
 
-llm = ChatGroq()
+llm = ChatGroq(groq_api_key=st.secrets['api_key'])
 
 # system message at the start of the chat
 if "messages" not in st.session_state:
