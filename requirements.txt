@@ -1,0 +1,6 @@
+streamlit
+firebase-admin
+google-cloud-firestore
+python-dotenv
+langchain
+langchain-groq
