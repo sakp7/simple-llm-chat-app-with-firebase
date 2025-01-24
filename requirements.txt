@@ -1,6 +1,5 @@
 streamlit
 firebase-admin
-google-cloud-firestore
-python-dotenv
+google-cloud-firestore==2.20.0
 langchain
 langchain-groq
